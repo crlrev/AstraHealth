@@ -1,0 +1,42 @@
+{
+  "runner": {
+    "node": "v20.20.2",
+    "platform": "linux x64",
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.60GHz",
+    "cores": 2,
+    "date": "2026-11-16T16:19:35.166Z"
+  },
+  "dataset": {
+    "astronauts": 6,
+    "seeded_measurements": 48114,
+    "seed_ms": 337.3
+  },
+  "history_api_ms": {
+    "samples": 300,
+    "p50": 0.943,
+    "p95": 2.95,
+    "max": 6.333
+  },
+  "crew_summary_api_ms": {
+    "samples": 100,
+    "p50": 0.445,
+    "p95": 0.565
+  },
+  "max_display_points_per_series": 575,
+  "max_display_points_limit": 600,
+  "ingestion": {
+    "events": 12000,
+    "wall_ms": 752.9,
+    "events_per_s": 15938
+  },
+  "replay": {
+    "queued": 1000,
+    "wall_ms": 45.8
+  },
+  "not_measured": [
+    "browser ingestion-to-visible latency (no runnable browser)",
+    "main-thread long tasks",
+    "10 concurrent browser sessions",
+    "memory in browser"
+  ]
+}

@@ -1,0 +1,4 @@
+[plugin vite:singlefile] Inlining: style-Ci_oIopa.css
+computing gzip size...
+dist/index.html  1,837.68 kB │ gzip: 559.20 kB
+✓ built in 9.95s
